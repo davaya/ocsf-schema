@@ -1,0 +1,19 @@
+{
+  "enum": {
+    "1": {
+      "caption": "Install"
+    },
+    "2": {
+      "caption": "Remove"
+    },
+    "3": {
+      "caption": "Start"
+    },
+    "4": {
+      "caption": "Stop"
+    },
+    "5": {
+      "caption": "Heartbeat"
+    }
+  }
+}

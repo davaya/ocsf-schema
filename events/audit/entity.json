@@ -11,20 +11,7 @@
       "group": "primary"
     },
     "activity_id": {
-      "enum": {
-        "1": {
-          "caption": "Created"
-        },
-        "2": {
-          "caption": "Read"
-        },
-        "3": {
-          "caption": "Updated"
-        },
-        "4": {
-          "caption": "Deleted"
-        }
-      }
+      "$include": "enums/entity_management_activity.json"
     },
     "entity": {
       "requirement": "required",
