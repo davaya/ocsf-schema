@@ -1,23 +1,7 @@
 {
   "attributes": {
     "activity_id": {
-      "enum": {
-        "1": {
-          "caption": "Created"
-        },
-        "2": {
-          "caption": "Updated"
-        },
-        "3": {
-          "caption": "Deleted"
-        },
-        "4": {
-          "caption": "Enabled"
-        },
-        "5": {
-          "caption": "Disabled"
-        }
-      }
+      "$include": "enums/scheduled_job_activity.json"
     },
     "job": {
       "group": "primary",
